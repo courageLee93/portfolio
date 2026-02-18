@@ -1,8 +1,7 @@
 .idea/
 
 gms/
-ab_beysian/
-ab_neyman/
+
 
 **/data/*
 **/dataset/*
@@ -11,6 +10,10 @@ ab_neyman/
 **/report/*
 **/reports/*
 **/result/*
+
+!**/dataset/fake_ab_test_2000.csv
+!ab_neyman/report/**
+
 
 
 

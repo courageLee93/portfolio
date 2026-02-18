@@ -1,0 +1,67 @@
+{
+    "count": {
+        "impressions": 937.0,
+        "clicks": 937.0,
+        "revenue": 937.0,
+        "time_on_site": 937.0,
+        "pages_viewed": 937.0
+    },
+    "mean": {
+        "impressions": 100.32123799359658,
+        "clicks": 4.03521878335112,
+        "revenue": 26.007918420647197,
+        "time_on_site": 14.89668799061655,
+        "pages_viewed": 5.953041622198506
+    },
+    "std": {
+        "impressions": 10.674892029114671,
+        "clicks": 2.038580288871826,
+        "revenue": 52.78008700678495,
+        "time_on_site": 10.466141015273866,
+        "pages_viewed": 2.225035731821209
+    },
+    "min": {
+        "impressions": 75.0,
+        "clicks": 0.0,
+        "revenue": 0.0,
+        "time_on_site": 1.24,
+        "pages_viewed": 0.0
+    },
+    "25%": {
+        "impressions": 93.0,
+        "clicks": 3.0,
+        "revenue": 0.0,
+        "time_on_site": 7.857167987418149,
+        "pages_viewed": 4.0
+    },
+    "50%": {
+        "impressions": 100.0,
+        "clicks": 4.0,
+        "revenue": 1.67,
+        "time_on_site": 11.64178332757312,
+        "pages_viewed": 6.0
+    },
+    "75%": {
+        "impressions": 107.0,
+        "clicks": 5.0,
+        "revenue": 32.82,
+        "time_on_site": 18.49,
+        "pages_viewed": 8.0
+    },
+    "max": {
+        "impressions": 133.0,
+        "clicks": 12.0,
+        "revenue": 371.08,
+        "time_on_site": 69.09,
+        "pages_viewed": 12.0
+    },
+    "IQR": {
+        "impressions": 14.0,
+        "clicks": 2.0,
+        "revenue": 32.82,
+        "time_on_site": 10.63283201258185,
+        "pages_viewed": 4.0
+    },
+    "cpu": 4.03521878335112,
+    "ucr": 36.926360725720386
+}

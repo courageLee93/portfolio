@@ -17,3 +17,4 @@ tensorboard-data-server==0.7.2
 tensorflow==2.16.2
 tqdm==4.67.1
 xgboost==3.0.3
+playwright==1.58.0

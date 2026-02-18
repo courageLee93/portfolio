@@ -5,9 +5,10 @@ This repository contains the source code used in my portfolio projects.
 For detailed explanations, please visit:<br><br>
 🔗 https://giyonglee.com
 
+
 ## Projects
 
-### 1. Uplift Modeling
+### Uplift Modeling
 X-Learner-based Uplift Modeling for Advertising Incremental Effect Estimation
 
 #### Project info
@@ -22,7 +23,7 @@ X-Learner-based Uplift Modeling for Advertising Incremental Effect Estimation
 4. `uplift.py` – X-Learner uplift estimation
 5. `report.py` – uplift performance evaluation
 
-### 2. Multi-Touch Attribution
+### Multi-Touch Attribution
 Comparison of Attention-based GRU and Transformer Models for Multi-Touch Attribution
 
 #### Project info
@@ -37,3 +38,26 @@ Comparison of Attention-based GRU and Transformer Models for Multi-Touch Attribu
 4. `attribution.py` – conversion prediction  
 5. `evaluate.py` – prediction performance evaluation  
 6. `report.py` – attention-based attribution analysis  
+
+
+## Experiments
+
+### Tracking validation
+- Simulation scripts for validating GA4/GTM event collection
+- Checks page views, scroll, click, engagement time, traffic parameter
+- Directory: `/traffic_simulation`
+- workflow:
+  1. `utils.py` - common utilities for request handling and event configuration
+  2. `steps.py` - defines simulated user interaction steps
+  3. `simulate.py` - executes traffic simulation and triggers events
+
+### A/B Test Statistical Analysis
+- Exploratory comparison of statistical inference approaches for A/B testing.
+- Comparison of Neyman–Pearson and Bayesian sequential approaches for A/B test result interpretation.
+- Neyman–Pearson 
+  - Directory: `/ab_neyman` 
+  - Dataset: simulated dataset (`dataset/fake_ab_test_2000.csv`)
+- Bayesian sequential 
+  - Directory: `/ab_beysian`
+  - Dataset: [ASOS Digital Experiments Dataset](https://osf.io/64jsb/overview)
+
