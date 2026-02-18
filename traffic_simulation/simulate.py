@@ -5,8 +5,8 @@ from steps import build_scenario
 
 HEADLESS = False #True
 
-TOTAL_USERS = 1 #30                       # 총 “사용자(세션)” 수
-CONCURRENCY = 1 #5                        # 동시에 실행할 수
+TOTAL_USERS = 50                       # 총 “사용자(세션)” 수
+CONCURRENCY = 5                        # 동시에 실행할 수
 
 
 USER_AGENTS = [

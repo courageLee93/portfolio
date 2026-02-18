@@ -24,9 +24,9 @@ def sample_nig_posterior(mu_n, kappa_n, alpha_n, beta_n, size=50000):
     # 1) σ² ~ InvGamma(α_n, β_n)
     sigma2_samples = invgamma(a=alpha_n, scale=beta_n).rvs(size)
     # 2) μ | σ² ~ Normal(μ_n, σ²/κ_n)
-    #mu_samples = norm(loc=mu_n, scale=np.sqrt(sigma2_samples / kappa_n)).rvs(size)
+    # mu_samples = norm(loc=mu_n, scale=np.sqrt(sigma2_samples / kappa_n)).rvs(size)
     mu_samples = norm.rvs(loc=mu_n,scale=np.sqrt(sigma2_samples / kappa_n))
-    # A/B 비교에서 우리가 궁금한 것은 “평균 차이 Δ = μ_B − μ_A” 이므로, mu_samples만 사용
+    # A/B 비교에서 “평균 차이 Δ = μ_B − μ_A” 이므로, mu_samples만 사용
     return mu_samples, sigma2_samples
 
 def hdi_of_samples(samples, cred_mass = 0.95):
